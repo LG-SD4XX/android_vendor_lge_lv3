@@ -88,31 +88,6 @@ LensInfo : Information of the lens present in the module.
 <CameraConfigurationRoot>
   <CameraModuleConfig>
     <CameraId>0</CameraId>
-    <SensorName>hi1332_sunny</SensorName>
-    <ActuatorName>dw9714a</ActuatorName>
-    <EepromName>sunny_hi1332</EepromName>
-    <FlashName>pmic</FlashName>
-    <ChromatixName>hi1332_sunny_chromatix</ChromatixName>
-    <ModesSupported>1</ModesSupported>
-    <Position>BACK</Position>
-    <MountAngle>90</MountAngle>
-    <CSIInfo>
-      <CSIDCore>0</CSIDCore>
-      <LaneMask>0x1F</LaneMask>
-      <LaneAssign>0x4320</LaneAssign>
-      <ComboMode>0</ComboMode>
-    </CSIInfo>
-    <LensInfo>
-      <FocalLength>3.519</FocalLength>
-      <FNumber>2.2</FNumber>
-      <TotalFocusDistance>4.2</TotalFocusDistance>
-      <HorizontalViewAngle>65.7</HorizontalViewAngle>
-      <VerticalViewAngle>51.6</VerticalViewAngle>
-      <MinFocusDistance>0.1</MinFocusDistance>
-    </LensInfo>
-  </CameraModuleConfig>
-  <CameraModuleConfig>
-    <CameraId>0</CameraId>
     <SensorName>hi1332_lgit</SensorName>
     <ActuatorName>dw9763</ActuatorName>
     <EepromName>lgit_hi1332</EepromName>
@@ -133,6 +108,31 @@ LensInfo : Information of the lens present in the module.
       <TotalFocusDistance>4.2</TotalFocusDistance>
       <HorizontalViewAngle>64.13</HorizontalViewAngle>
       <VerticalViewAngle>50.37</VerticalViewAngle>
+      <MinFocusDistance>0.1</MinFocusDistance>
+    </LensInfo>
+  </CameraModuleConfig>
+  <CameraModuleConfig>
+    <CameraId>0</CameraId>
+    <SensorName>hi1332_sunny</SensorName>
+    <ActuatorName>dw9714a</ActuatorName>
+    <EepromName>sunny_hi1332</EepromName>
+    <FlashName>pmic</FlashName>
+    <ChromatixName>hi1332_sunny_chromatix</ChromatixName>
+    <ModesSupported>1</ModesSupported>
+    <Position>BACK</Position>
+    <MountAngle>90</MountAngle>
+    <CSIInfo>
+      <CSIDCore>0</CSIDCore>
+      <LaneMask>0x1F</LaneMask>
+      <LaneAssign>0x4320</LaneAssign>
+      <ComboMode>0</ComboMode>
+    </CSIInfo>
+    <LensInfo>
+      <FocalLength>3.519</FocalLength>
+      <FNumber>2.2</FNumber>
+      <TotalFocusDistance>4.2</TotalFocusDistance>
+      <HorizontalViewAngle>65.7</HorizontalViewAngle>
+      <VerticalViewAngle>51.6</VerticalViewAngle>
       <MinFocusDistance>0.1</MinFocusDistance>
     </LensInfo>
   </CameraModuleConfig>
@@ -163,28 +163,6 @@ LensInfo : Information of the lens present in the module.
   </CameraModuleConfig>
   <CameraModuleConfig>
     <CameraId>1</CameraId>
-    <SensorName>s5k5e8_sunny</SensorName>
-    <ChromatixName>s5k5e8_sunny_chromatix</ChromatixName>
-    <ModesSupported>1</ModesSupported>
-    <Position>FRONT</Position>
-    <MountAngle>270</MountAngle>
-    <CSIInfo>
-      <CSIDCore>1</CSIDCore>
-      <LaneMask>0x7</LaneMask>
-      <LaneAssign>0x4320</LaneAssign>
-      <ComboMode>0</ComboMode>
-    </CSIInfo>
-    <LensInfo>
-      <FocalLength>2.14</FocalLength>
-      <FNumber>2.4</FNumber>
-      <TotalFocusDistance>3.6</TotalFocusDistance>
-      <HorizontalViewAngle>67.8</HorizontalViewAngle>
-      <VerticalViewAngle>53.3</VerticalViewAngle>
-      <MinFocusDistance>0.27</MinFocusDistance>
-    </LensInfo>
-  </CameraModuleConfig>
-  <CameraModuleConfig>
-    <CameraId>1</CameraId>
     <SensorName>s5k5e8_cowell</SensorName>
     <ChromatixName>s5k5e8_cowell_chromatix</ChromatixName>
     <ModesSupported>1</ModesSupported>
@@ -203,6 +181,28 @@ LensInfo : Information of the lens present in the module.
       <HorizontalViewAngle>68.92</HorizontalViewAngle>
       <VerticalViewAngle>54.37</VerticalViewAngle>
       <MinFocusDistance>0.2</MinFocusDistance>
+    </LensInfo>
+  </CameraModuleConfig>
+  <CameraModuleConfig>
+    <CameraId>1</CameraId>
+    <SensorName>s5k5e8_sunny</SensorName>
+    <ChromatixName>s5k5e8_sunny_chromatix</ChromatixName>
+    <ModesSupported>1</ModesSupported>
+    <Position>FRONT</Position>
+    <MountAngle>270</MountAngle>
+    <CSIInfo>
+      <CSIDCore>1</CSIDCore>
+      <LaneMask>0x7</LaneMask>
+      <LaneAssign>0x4320</LaneAssign>
+      <ComboMode>0</ComboMode>
+    </CSIInfo>
+    <LensInfo>
+      <FocalLength>2.14</FocalLength>
+      <FNumber>2.4</FNumber>
+      <TotalFocusDistance>3.6</TotalFocusDistance>
+      <HorizontalViewAngle>67.8</HorizontalViewAngle>
+      <VerticalViewAngle>53.3</VerticalViewAngle>
+      <MinFocusDistance>0.27</MinFocusDistance>
     </LensInfo>
   </CameraModuleConfig>
 </CameraConfigurationRoot>
